@@ -1,0 +1,29 @@
+<svg width="600" height="100" viewBox="0 0 600 100" xmlns="http://www.w3.org/2000/svg">
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="60" fill="none" stroke="url(#gradient)" stroke-width="2" font-family="Verdana">
+    Robel Fekadu
+  </text>
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF512F;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#DD2476;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <style>
+    text {
+      stroke-dasharray: 500;
+      stroke-dashoffset: 500;
+      animation: dash 4s ease forwards, fill 2s ease 4s forwards;
+    }
+    @keyframes dash {
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes fill {
+      to {
+        fill: url(#gradient);
+        stroke: none;
+      }
+    }
+  </style>
+</svg>
