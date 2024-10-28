@@ -2,7 +2,7 @@
 
 # Hello World!
 <h1 align="center">
-  <img src="https://raw.githubusercontent.com/robavelii/robavelii/master/name.svg" alt="Robel Fekadu" />
+  <img src="https://raw.githubusercontent.com/robavelii/robavelii/master/Name.svg" alt="Robel Fekadu" />
 </h1>
 ### A Senior Software Engineer 
 <div align="center">
