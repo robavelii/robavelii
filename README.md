@@ -4,7 +4,8 @@
 <h1 align="center">
   <img src="https://raw.githubusercontent.com/robavelii/robavelii/master/Name.svg" alt="Robel Fekadu" />
 </h1>
-### A Senior Software Engineer 
+
+### Senior Software Engineer 
 <div align="center">
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">
   <h2>Welcome to My GitHub Profile!</h2>
