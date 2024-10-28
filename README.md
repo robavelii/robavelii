@@ -1,7 +1,9 @@
 ---
 
 # Hello World!
-## I'm Robel 👋 
+<h1 align="center">
+  <img src="https://raw.githubusercontent.com/robavelii/robavelii/master/name.svg" alt="Robel Fekadu" />
+</h1>
 ### A Senior Software Engineer 
 <div align="center">
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">
