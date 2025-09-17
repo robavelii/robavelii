@@ -75,6 +75,6 @@
 
 ---
 
-### 🧑‍💻 Fun Fact: I’m currently exploring AI & Machine Learning!
+### 🧑‍💻 Current Mode: I’m currently working on healthcare sytstems!
 
 --- 
