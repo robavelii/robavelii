@@ -21,10 +21,31 @@ I build backends and the platforms around them: multi-tenant SaaS, AI and RAG se
 ## Stack
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=ts%2Cpy%2Ckotlin%2Cjava%2Cgo%2Cnodejs%2Cnestjs%2Cfastapi%2Cspring%2Cgraphql%2Cprisma%2Creact%2Cnextjs%2Cvite%2Ctailwind%2Ctauri%2Cpostgres%2Credis%2Cdocker%2Cgithubactions%2Ccloudflare%2Cvercel%2Caws%2Clinux&perline=12&theme=light">
-    <img alt="TypeScript, Python, Kotlin, Java, Go, Node.js, NestJS, FastAPI, Spring, GraphQL, Prisma, React, Next.js, Vite, Tailwind, Tauri, PostgreSQL, Redis, Docker, GitHub Actions, Cloudflare, Vercel, AWS, Linux" src="https://skillicons.dev/icons?i=ts,py,kotlin,java,go,nodejs,nestjs,fastapi,spring,graphql,prisma,react,nextjs,vite,tailwind,tauri,postgres,redis,docker,githubactions,cloudflare,vercel,aws,linux&perline=12&theme=dark">
-  </picture>
+  <picture><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=ts&theme=light"><img src="https://skillicons.dev/icons?i=ts&theme=dark" width="48" height="48" alt="TypeScript" title="TypeScript"></picture>
+  <picture><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=py&theme=light"><img src="https://skillicons.dev/icons?i=py&theme=dark" width="48" height="48" alt="Python" title="Python"></picture>
+  <picture><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=kotlin&theme=light"><img src="https://skillicons.dev/icons?i=kotlin&theme=dark" width="48" height="48" alt="Kotlin" title="Kotlin"></picture>
+  <picture><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=java&theme=light"><img src="https://skillicons.dev/icons?i=java&theme=dark" width="48" height="48" alt="Java" title="Java"></picture>
+  <picture><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=go&theme=light"><img src="https://skillicons.dev/icons?i=go&theme=dark" width="48" height="48" alt="Go" title="Go"></picture>
+  <picture><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=nodejs&theme=light"><img src="https://skillicons.dev/icons?i=nodejs&theme=dark" width="48" height="48" alt="Node.js" title="Node.js"></picture>
+  <picture><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=nestjs&theme=light"><img src="https://skillicons.dev/icons?i=nestjs&theme=dark" width="48" height="48" alt="NestJS" title="NestJS"></picture>
+  <picture><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=fastapi&theme=light"><img src="https://skillicons.dev/icons?i=fastapi&theme=dark" width="48" height="48" alt="FastAPI" title="FastAPI"></picture>
+  <picture><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=spring&theme=light"><img src="https://skillicons.dev/icons?i=spring&theme=dark" width="48" height="48" alt="Spring Boot" title="Spring Boot"></picture>
+  <picture><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=graphql&theme=light"><img src="https://skillicons.dev/icons?i=graphql&theme=dark" width="48" height="48" alt="GraphQL" title="GraphQL"></picture>
+  <picture><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=prisma&theme=light"><img src="https://skillicons.dev/icons?i=prisma&theme=dark" width="48" height="48" alt="Prisma" title="Prisma"></picture>
+  <picture><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=react&theme=light"><img src="https://skillicons.dev/icons?i=react&theme=dark" width="48" height="48" alt="React" title="React"></picture>
+  <br>
+  <picture><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=nextjs&theme=light"><img src="https://skillicons.dev/icons?i=nextjs&theme=dark" width="48" height="48" alt="Next.js" title="Next.js"></picture>
+  <picture><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=vite&theme=light"><img src="https://skillicons.dev/icons?i=vite&theme=dark" width="48" height="48" alt="Vite" title="Vite"></picture>
+  <picture><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=tailwind&theme=light"><img src="https://skillicons.dev/icons?i=tailwind&theme=dark" width="48" height="48" alt="Tailwind CSS" title="Tailwind CSS"></picture>
+  <picture><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=tauri&theme=light"><img src="https://skillicons.dev/icons?i=tauri&theme=dark" width="48" height="48" alt="Tauri" title="Tauri"></picture>
+  <picture><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=postgres&theme=light"><img src="https://skillicons.dev/icons?i=postgres&theme=dark" width="48" height="48" alt="PostgreSQL" title="PostgreSQL"></picture>
+  <picture><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=redis&theme=light"><img src="https://skillicons.dev/icons?i=redis&theme=dark" width="48" height="48" alt="Redis" title="Redis"></picture>
+  <picture><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=docker&theme=light"><img src="https://skillicons.dev/icons?i=docker&theme=dark" width="48" height="48" alt="Docker" title="Docker"></picture>
+  <picture><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=githubactions&theme=light"><img src="https://skillicons.dev/icons?i=githubactions&theme=dark" width="48" height="48" alt="GitHub Actions" title="GitHub Actions"></picture>
+  <picture><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=cloudflare&theme=light"><img src="https://skillicons.dev/icons?i=cloudflare&theme=dark" width="48" height="48" alt="Cloudflare" title="Cloudflare"></picture>
+  <picture><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=vercel&theme=light"><img src="https://skillicons.dev/icons?i=vercel&theme=dark" width="48" height="48" alt="Vercel" title="Vercel"></picture>
+  <picture><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=aws&theme=light"><img src="https://skillicons.dev/icons?i=aws&theme=dark" width="48" height="48" alt="AWS" title="AWS"></picture>
+  <picture><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=linux&theme=light"><img src="https://skillicons.dev/icons?i=linux&theme=dark" width="48" height="48" alt="Linux" title="Linux"></picture>
 </p>
 
 | Area | What I reach for |
