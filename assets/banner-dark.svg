@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title">
+  <title id="title">Robel Fekadu, Senior Software Engineer: backend, platforms and applied AI</title>
+  <defs>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF512F"/>
+      <stop offset="100%" stop-color="#DD2476"/>
+    </linearGradient>
+    <radialGradient id="glowA"><stop offset="0%" stop-color="#DD2476" stop-opacity="0.28"/><stop offset="100%" stop-color="#DD2476" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glowB"><stop offset="0%" stop-color="#FF512F" stop-opacity="0.20"/><stop offset="100%" stop-color="#FF512F" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0 H0 V32" fill="none" stroke="#161b22" stroke-width="1"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1200" height="320" rx="16"/></clipPath>
+  </defs>
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+    .name { stroke: url(#accent); stroke-width: 1.5; stroke-dasharray: 600; animation: draw 2.4s ease-out both, fill 1s ease 1.6s both; }
+    .rise { animation: rise .8s ease-out 1.2s both; }
+    .flow { stroke-dasharray: 4 5; animation: dash 1.2s linear infinite; }
+    @keyframes draw { from { stroke-dashoffset: 600; } to { stroke-dashoffset: 0; } }
+    @keyframes fill { from { fill-opacity: 0; } to { fill-opacity: 1; } }
+    @keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+    @keyframes dash { to { stroke-dashoffset: -18; } }
+    @media (prefers-reduced-motion: reduce) { .name, .rise, .flow { animation: none; } }
+  </style>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="320" fill="#0d1117"/>
+    <rect width="1200" height="320" fill="url(#grid)"/>
+    <circle cx="1040" cy="40" r="300" fill="url(#glowA)">
+      <animate attributeName="cx" dur="14s" repeatCount="indefinite" values="1040;960;1040"/>
+    </circle>
+    <circle cx="140" cy="330" r="260" fill="url(#glowB)">
+      <animate attributeName="cx" dur="18s" repeatCount="indefinite" values="140;240;140"/>
+    </circle>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="319" rx="16" fill="none" stroke="#30363d"/>
+
+  <circle cx="36" cy="36" r="6" fill="#ff5f56"/>
+  <circle cx="56" cy="36" r="6" fill="#ffbd2e"/>
+  <circle cx="76" cy="36" r="6" fill="#27c93f"/>
+  <text class="mono" x="98" y="41" font-size="14" fill="#8b949e">robavelii@github: ~</text>
+  <text class="mono" x="1164" y="41" font-size="14" fill="#8b949e" text-anchor="end">Addis Ababa · UTC+3</text>
+
+  <text class="sans name" x="60" y="150" font-size="76" font-weight="800" fill="url(#accent)" letter-spacing="-1.5">Robel Fekadu</text>
+  <text class="sans rise" x="64" y="196" font-size="24" fill="#c9d1d9">Senior Software Engineer · backend, platforms &amp; applied AI</text>
+
+  <text class="mono" x="64" y="262" font-size="22" fill="#8b949e" textLength="184.8" lengthAdjust="spacingAndGlyphs">$ now building</text>
+  <defs>
+    <clipPath id="c0"><rect x="262.0" y="236" height="36" width="0">
+      <animate attributeName="width" dur="16s" repeatCount="indefinite" keyTimes="0;0.08;0.2;0.235;1" values="0;343.2;343.2;0;0"/>
+    </rect></clipPath>
+    <clipPath id="c1"><rect x="262.0" y="236" height="36" width="0">
+      <animate attributeName="width" dur="16s" repeatCount="indefinite" keyTimes="0;0.25;0.33;0.45;0.485;1" values="0;0;343.2;343.2;0;0"/>
+    </rect></clipPath>
+    <clipPath id="c2"><rect x="262.0" y="236" height="36" width="0">
+      <animate attributeName="width" dur="16s" repeatCount="indefinite" keyTimes="0;0.5;0.58;0.7;0.735;1" values="0;0;290.4;290.4;0;0"/>
+    </rect></clipPath>
+    <clipPath id="c3"><rect x="262.0" y="236" height="36" width="0">
+      <animate attributeName="width" dur="16s" repeatCount="indefinite" keyTimes="0;0.75;0.83;0.95;0.985;1" values="0;0;343.2;343.2;0;0"/>
+    </rect></clipPath>
+  </defs>
+  <text class="mono" x="262.0" y="262" font-size="22" fill="#f0f6fc" textLength="343.2" lengthAdjust="spacingAndGlyphs" clip-path="url(#c0)">multi-tenant SaaS backends</text>
+  <text class="mono" x="262.0" y="262" font-size="22" fill="#f0f6fc" textLength="343.2" lengthAdjust="spacingAndGlyphs" clip-path="url(#c1)">RAG over private knowledge</text>
+  <text class="mono" x="262.0" y="262" font-size="22" fill="#f0f6fc" textLength="290.4" lengthAdjust="spacingAndGlyphs" clip-path="url(#c2)">clinical &amp; lab systems</text>
+  <text class="mono" x="262.0" y="262" font-size="22" fill="#f0f6fc" textLength="343.2" lengthAdjust="spacingAndGlyphs" clip-path="url(#c3)">encrypted sync at the edge</text>
+  
+  <rect x="262.0" y="243" width="12" height="25" fill="url(#accent)">
+    <animate attributeName="x" dur="16s" repeatCount="indefinite" keyTimes="0;0.08;0.2;0.235;0.25;0.33;0.45;0.485;0.5;0.58;0.7;0.735;0.75;0.83;0.95;0.985;1" values="262.0;605.2;605.2;262.0;262.0;605.2;605.2;262.0;262.0;552.4;552.4;262.0;262.0;605.2;605.2;262.0;262.0"/>
+    <animate attributeName="opacity" dur="1s" repeatCount="indefinite" values="1;1;0;0" keyTimes="0;0.5;0.5;1"/>
+  </rect>
+  
+  <g fill="none" stroke="#6e7681" stroke-width="1.5">
+    <path class="flow" d="M896 121 H936"/>
+    <path class="flow" d="M1020 121 H1060"/>
+    <path class="flow" d="M1102 138 V214"/>
+    <path class="flow" d="M1060 231 H1020"/>
+    <path class="flow" d="M978 138 V214"/>
+  </g>
+  <circle r="4" fill="#FF512F">
+    <animateMotion dur="4s" repeatCount="indefinite" path="M854 121 H1102 V231 H978"/>
+  </circle>
+  <circle r="4" fill="#DD2476">
+    <animateMotion dur="4s" begin="2s" repeatCount="indefinite" path="M854 121 H1102 V231 H978"/>
+  </circle>
+  <g>
+    <g><rect x="812" y="104" width="84" height="34" rx="8" fill="#161b22" stroke="#30363d"/><text class="mono" x="854" y="126" font-size="14" fill="#c9d1d9" text-anchor="middle">client</text></g>
+    <g><rect x="936" y="104" width="84" height="34" rx="8" fill="#161b22" stroke="#30363d"/><text class="mono" x="978" y="126" font-size="14" fill="#c9d1d9" text-anchor="middle">api</text></g>
+    <g><rect x="1060" y="104" width="84" height="34" rx="8" fill="#161b22" stroke="#30363d"/><text class="mono" x="1102" y="126" font-size="14" fill="#c9d1d9" text-anchor="middle">queue</text></g>
+    <g><rect x="936" y="214" width="84" height="34" rx="8" fill="#161b22" stroke="#30363d"/><text class="mono" x="978" y="236" font-size="14" fill="#c9d1d9" text-anchor="middle">postgres</text></g>
+    <g><rect x="1060" y="214" width="84" height="34" rx="8" fill="#161b22" stroke="#30363d"/><text class="mono" x="1102" y="236" font-size="14" fill="#c9d1d9" text-anchor="middle">worker</text></g>
+  </g>
+  <text class="mono" x="812" y="286" font-size="13" fill="#8b949e">// most of my week, roughly</text>
+</svg>
