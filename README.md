@@ -1,80 +1,96 @@
----
-
-# Hello World!
-<h1 align="center">
-  <img src="https://raw.githubusercontent.com/robavelii/robavelii/master/Name.svg" alt="Robel Fekadu" />
-</h1>
-
-### Senior Software Engineer 
-<div align="center">
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">
-  <h2>Welcome to My GitHub Profile!</h2>
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/robavelii/robavelii/main/assets/banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/robavelii/robavelii/main/assets/banner-light.svg">
+  <img alt="Robel Fekadu, Senior Software Engineer: backend, platforms and applied AI" src="https://raw.githubusercontent.com/robavelii/robavelii/main/assets/banner-dark.svg" width="100%">
+</picture>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=robavelii&show_icons=true&theme=dracula" alt="GitHub Stats" height="180px">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=robavelii&layout=compact&theme=dracula" alt="Top Languages" height="180px">
+  <a href="https://robelfekadu.com"><img alt="Website" src="https://img.shields.io/badge/robelfekadu.com-161b22?style=for-the-badge&logo=vercel&logoColor=FF512F"></a>
+  <a href="https://www.linkedin.com/in/robavelii"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-161b22?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI0REMjQ3NiIgZD0iTTQuOTggMy41YTIuNSAyLjUgMCAxIDEgMCA1IDIuNSAyLjUgMCAwIDEgMC01ek0zIDkuNzVoNFYyMUgzek05LjUgOS43NWgzLjh2MS42aC4wNmMuNTMtMSAxLjgzLTIuMDUgMy43Ny0yLjA1IDQuMDMgMCA0Ljc3IDIuNjUgNC43NyA2LjFWMjFoLTR2LTQuOThjMC0xLjE5LS4wMi0yLjcyLTEuNjYtMi43Mi0xLjY2IDAtMS45MiAxLjMtMS45MiAyLjYzVjIxSDkuNXoiLz48L3N2Zz4%3D"></a>
+  <a href="mailto:contact@robelfekadu.com"><img alt="Email" src="https://img.shields.io/badge/contact@robelfekadu.com-161b22?style=for-the-badge&logo=gmail&logoColor=FF512F"></a>
 </p>
 
----
+I build backends and the platforms around them: multi-tenant SaaS, AI and RAG services, and clinical systems that run in production. Day to day that means TypeScript and Python, with Kotlin, Java and Rust when the job calls for it, shipped on Docker, Cloudflare and plain Linux boxes.
 
-### 🛠 Tech Stack
-<div align="center">
-  <table>
-    <tr>
-      <td><img alt="JavaScript" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/></td>
-      <td><img alt="TypeScript" src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"/></td>
-      <td><img alt="NodeJS" src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"/></td>
-      <td><img alt="NestJS" src="https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white"/></td>
-    </tr>
-    <tr>
-      <td><img alt="Express.js" src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB"/></td>
-      <td><img alt="React" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/></td>
-      <td><img alt="Dart" src="https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white"/></td>
-      <td><img alt="Go" src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white"/></td>
-    </tr>
-    <tr>
-      <td><img alt="Python" src="https://img.shields.io/badge/python-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white"/></td>
-      <td><img alt="TypeORM" src="https://img.shields.io/badge/TypeORM-%23E0234E.svg?style=for-the-badge&logo=typeorm&logoColor=white"/></td>
-      <td><img alt="Prisma" src="https://img.shields.io/badge/Prisma-%232D3748.svg?style=for-the-badge&logo=prisma&logoColor=white"/></td>
-      <td><img alt="RabbitMQ" src="https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white"/></td>
-    </tr>
-    <tr>
-      <td><img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white"/></td>
-      <td><img alt="MySQL" src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white"/></td>
-      <td><img alt="Postgres" src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white"/></td>
-      <td><img alt="Redis" src="https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white"/></td>
-    </tr>
-    <tr>
-      <td><img alt="Docker" src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white"/></td>
-      <td><img alt="Postman" src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/></td>
-      <td><img alt="Swagger" src="https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white"/></td>
-      <td><img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/></td>
-    </tr>
-    <tr>
-      <td><img alt="AWS" src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white"/></td>
-      <td><img alt="Firebase" src="https://img.shields.io/badge/Firebase-%23039BE5.svg?style=for-the-badge&logo=firebase"/></td>
-      <td><img alt="Jira" src="https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white"/></td>
-      <td><img alt="ESLint" src="https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white"/></td>
-    </tr>
-  </table>
-</div>
+## Right now
 
----
+- **Backend lead at [unvrs.ai](https://unvrs.ai).** Ingestion, model serving and the APIs behind an AI visual-inspection platform, plus the operator tooling and QC pipeline on top.
+- **Clinical platforms.** Maintaining and extending a hospital stack built on Bahmni, OpenELIS and Odoo 18: billing, data migrations, lab and imaging interfaces, deployment.
+- **Evenings and weekends.** Open-source tools I want to exist, a few of which are below.
 
-### 📫 Connect with Me:
+## Stack
+
 <p align="center">
-  <a href="https://www.linkedin.com/in/robavelii"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="https://github.com/robavelii"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-%23181717.svg?style=for-the-badge&logo=github&logoColor=white"/></a>
-  <a href="mailto:robelfekadu@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-%23D14836.svg?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=ts%2Cpy%2Ckotlin%2Cjava%2Cgo%2Cnodejs%2Cnestjs%2Cfastapi%2Cspring%2Cgraphql%2Cprisma%2Creact%2Cnextjs%2Cvite%2Ctailwind%2Ctauri%2Cpostgres%2Credis%2Cdocker%2Cgithubactions%2Ccloudflare%2Cvercel%2Caws%2Clinux&perline=12&theme=light">
+    <img alt="TypeScript, Python, Kotlin, Java, Go, Node.js, NestJS, FastAPI, Spring, GraphQL, Prisma, React, Next.js, Vite, Tailwind, Tauri, PostgreSQL, Redis, Docker, GitHub Actions, Cloudflare, Vercel, AWS, Linux" src="https://skillicons.dev/icons?i=ts,py,kotlin,java,go,nodejs,nestjs,fastapi,spring,graphql,prisma,react,nextjs,vite,tailwind,tauri,postgres,redis,docker,githubactions,cloudflare,vercel,aws,linux&perline=12&theme=dark">
+  </picture>
 </p>
 
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=robavelii&style=for-the-badge&color=blue" alt="Profile Views"/>
-</div>
+| Area | What I reach for |
+| --- | --- |
+| **Languages** | TypeScript · Python · Kotlin · Java · Go · SQL · Bash |
+| **Backend** | NestJS · Fastify · Hono · FastAPI · Spring Boot · GraphQL · Socket.IO · Prisma · SQLAlchemy + Alembic |
+| **Jobs & realtime** | BullMQ · Celery · Durable Objects · WebSockets |
+| **AI** | RAG pipelines · pgvector · LangChain · LiteLLM · OpenAI, Anthropic and Gemini SDKs |
+| **Frontend & apps** | React · Next.js · Vite · Tailwind · TanStack Query · Zustand · Refine + Ant Design · Tauri · Jetpack Compose |
+| **Data** | PostgreSQL · Redis · MySQL · SQLite / D1 · MinIO |
+| **Infra & ops** | Docker Compose · GitHub Actions · Cloudflare (Workers, Tunnels) · Vercel · OCI · Fly.io · AWS · Keycloak · OpenTelemetry · Prometheus |
+| **Testing** | Vitest · Jest · Playwright · pytest · Hypothesis |
+| **Domain** | Odoo 18 · Bahmni · OpenELIS · scraping with Playwright and Crawlee |
 
----
+## Selected work
 
-### 🧑‍💻 Current Mode: I’m currently working on healthcare sytstems!
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/robavelii/clipboard-worker">ClipSync</a></h3>
+      End-to-end encrypted clipboard sync across your own machines. Copy on one, paste on another; the server only ever sees ciphertext.
+      <br><br>
+      <code>Cloudflare Workers</code> <code>Durable Objects</code> <code>D1</code> <code>Hono</code> <code>Tauri</code>
+      <br><a href="https://clip.rfh.et">clip.rfh.et</a>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/robavelii/rivet">Rivet</a></h3>
+      Multi-tenant workflow automation in the space of n8n and Zapier, written as an open reference for enterprise NestJS architecture. Work in progress.
+      <br><br>
+      <code>NestJS</code> <code>BullMQ</code> <code>Prisma</code> <code>OpenTelemetry</code> <code>React Flow</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/robavelii/doc-hub-rag">Doc Hub RAG</a></h3>
+      Multi-tenant SaaS: a company uploads its knowledge base and gets a private, grounded AI assistant over it. Every tenant is fully isolated.
+      <br><br>
+      <code>FastAPI</code> <code>Celery</code> <code>pgvector</code> <code>React</code>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/robavelii/api-sandbox">SpecTwin</a></h3>
+      A simulation workbench for repeatable API integration journeys, with a shared contract compiler and durable state.
+      <br><br>
+      <code>NestJS + Fastify</code> <code>Next.js</code> <code>PostgreSQL</code> <code>Playwright</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/robavelii/medassist-ai">MedAssist AI</a></h3>
+      Clinical decision support for healthcare professionals: triage, medication, lab and radiology modules, with prompt-injection guards and cost tracking.
+      <br><br>
+      <code>FastAPI</code> <code>LiteLLM</code> <code>PostgreSQL</code>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/robavelii/hellgate">Hellgate</a></h3>
+      API gateway and auth service for microservices, deliberately language-agnostic so the services behind it can be written in anything.
+      <br><br>
+      <code>Java</code> <code>Kong</code> <code>JWT</code> <code>Redis</code>
+    </td>
+  </tr>
+</table>
 
---- 
+## Activity
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/robavelii/robavelii/output/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/robavelii/robavelii/output/snake-light.svg">
+  <img alt="Contribution graph being eaten by a snake" src="https://raw.githubusercontent.com/robavelii/robavelii/output/snake-dark.svg" width="100%">
+</picture>
