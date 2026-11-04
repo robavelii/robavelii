@@ -10,7 +10,7 @@
   <a href="mailto:contact@robelfekadu.com"><img alt="Email" src="https://img.shields.io/badge/contact@robelfekadu.com-161b22?style=for-the-badge&logo=gmail&logoColor=FF512F"></a>
 </p>
 
-I build the parts of software you only notice when they break, and I work hard to keep them boring. Mostly backends: multi-tenant SaaS, AI that has to show its sources, and health platforms where "works on my machine" doesn't count as a lab result. I think in TypeScript and Python, reach for Kotlin or Rust when things get interesting, and have a soft spot for queues, idempotency keys and migrations that run cleanly at 2am.
+I build backends and the platforms around them: multi-tenant SaaS, AI and RAG services, and clinical platforms. Day to day that means TypeScript and Python, with Kotlin, Java and Rust when the job calls for it, shipped on Docker, Cloudflare and plain Linux boxes.
 
 ## Right now
 
