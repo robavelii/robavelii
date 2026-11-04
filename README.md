@@ -10,7 +10,7 @@
   <a href="mailto:contact@robelfekadu.com"><img alt="Email" src="https://img.shields.io/badge/contact@robelfekadu.com-161b22?style=for-the-badge&logo=gmail&logoColor=FF512F"></a>
 </p>
 
-I build backends and the platforms around them: multi-tenant SaaS, AI and RAG services, and clinical platforms. Day to day that means TypeScript and Python, with Kotlin, Java and Rust when the job calls for it, shipped on Docker, Cloudflare and plain Linux boxes.
+I build backends and the platforms around them: multi-tenant SaaS, AI and RAG services, and clinical platforms. Day to day that means TypeScript and Python, with Kotlin, Java and Rust when the job calls for it.
 
 ## Right now
 
