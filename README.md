@@ -10,13 +10,13 @@
   <a href="mailto:contact@robelfekadu.com"><img alt="Email" src="https://img.shields.io/badge/contact@robelfekadu.com-161b22?style=for-the-badge&logo=gmail&logoColor=FF512F"></a>
 </p>
 
-I build backends and the platforms around them: multi-tenant SaaS, AI and RAG services, and clinical systems that run in production. Day to day that means TypeScript and Python, with Kotlin, Java and Rust when the job calls for it, shipped on Docker, Cloudflare and plain Linux boxes.
+I build backends and the platforms around them: multi-tenant SaaS, AI and RAG services, and clinical platforms. Day to day that means TypeScript and Python, with Kotlin, Java and Rust when the job calls for it, shipped on Docker, Cloudflare and plain Linux boxes.
 
 ## Right now
 
-- **Backend lead at [unvrs.ai](https://unvrs.ai).** Ingestion, model serving and the APIs behind an AI visual-inspection platform, plus the operator tooling and QC pipeline on top.
-- **Clinical platforms.** Maintaining and extending a hospital stack built on Bahmni, OpenELIS and Odoo 18: billing, data migrations, lab and imaging interfaces, deployment.
-- **Evenings and weekends.** Open-source tools I want to exist, a few of which are below.
+- **[Lyfe](https://lyfe.care) UK.** The platform behind at-home blood testing: a FastAPI backend that takes lab results in over HL7 and turns them into structured biomarkers, a Next.js storefront, and the staff back office. Cognito for auth, and an end-to-end suite gates every deploy.
+- **[UNVRS](https://unvrs.ai).** AI that checks a blood sample before it reaches the lab: a serverless AWS backend, the image-inference service for sample quality, a QC evaluation pipeline, and the company site on S3 + CloudFront via SST.
+- **Open source.** ClipSync, SpecTwin and Doc Hub RAG, all below and all moving this week.
 
 ## Stack
 
@@ -35,9 +35,9 @@ I build backends and the platforms around them: multi-tenant SaaS, AI and RAG se
 | **AI** | RAG pipelines · pgvector · LangChain · LiteLLM · OpenAI, Anthropic and Gemini SDKs |
 | **Frontend & apps** | React · Next.js · Vite · Tailwind · TanStack Query · Zustand · Refine + Ant Design · Tauri · Jetpack Compose |
 | **Data** | PostgreSQL · Redis · MySQL · SQLite / D1 · MinIO |
-| **Infra & ops** | Docker Compose · GitHub Actions · Cloudflare (Workers, Tunnels) · Vercel · OCI · Fly.io · AWS · Keycloak · OpenTelemetry · Prometheus |
+| **Infra & ops** | Docker Compose · GitHub Actions · Cloudflare (Workers, Tunnels) · Vercel · AWS (Lambda, DynamoDB, Cognito, S3 + CloudFront) · SST · OCI · Fly.io · Keycloak · OpenTelemetry · Prometheus |
 | **Testing** | Vitest · Jest · Playwright · pytest · Hypothesis |
-| **Domain** | Odoo 18 · Bahmni · OpenELIS · scraping with Playwright and Crawlee |
+| **Domain** | Lab integrations (HL7) · health data and data-subject requests · scraping with Playwright and Crawlee |
 
 ## Selected work
 
